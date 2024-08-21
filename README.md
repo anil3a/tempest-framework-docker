@@ -5,7 +5,7 @@ This project is a docker implementation of [Tempest Framework](tempestsapp/LICEN
 
 It provides a Docker setup for running a Tempest PHP application with Nginx as the web server.
 
-It uses Traefik to host the app in local. You can use the container exposed port as well if not using traefik and remove the all the "labels:" from docker-compose.yml file. The services use the `traefik` network, which should be created externally.
+It uses [Traefik](https://traefik.io/) to host the app in local. You can use the container exposed port as well if not using traefik and remove the all the "labels:" from docker-compose.yml file. The services use the `traefik` network, which should be created externally.
 
 ## Project Structure
 
